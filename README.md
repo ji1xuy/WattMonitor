@@ -43,3 +43,7 @@ FlashAir使用時は、
 ・1日1回インターネットから標準時刻を取得しRTCを修正
 
 ![本体前面](https://user-images.githubusercontent.com/114241917/209243269-b8c7d9c2-f591-4082-9b9e-081770475712.jpg)
+
+![内部](https://user-images.githubusercontent.com/114241917/209243399-f9e89ccb-9ef8-4686-b888-825ebc829a69.jpg)
+
+![センサー](https://user-images.githubusercontent.com/114241917/209243423-99bfbb07-b247-4e75-a755-934a447dcfdc.jpg)
