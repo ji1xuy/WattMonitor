@@ -39,6 +39,7 @@ FlashAir使用時は、
 　https://github.com/iot-playground/Arduino/blob/master/external_libraries/UTFT/SevenSeg_XXXL_Num.c  
 　SixteenSegment32x48.c  
 　https://github.com/joyqi/UTFT/blob/master/SixteenSegment32x48.c  
+※その他必要なライブラリはスケッチ内にURLを記述しています。  
   
 ![本体前面](https://user-images.githubusercontent.com/114241917/209243269-b8c7d9c2-f591-4082-9b9e-081770475712.jpg)
 ![内部](https://user-images.githubusercontent.com/114241917/209243399-f9e89ccb-9ef8-4686-b888-825ebc829a69.jpg)
