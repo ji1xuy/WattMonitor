@@ -1,5 +1,6 @@
-# Watt_Monitor
+# WattMonitor
 電力モニター  
+  
 ■ハード  
 ・Atmega1284P-PU 3.3V 12MHz bobuinoピンレイアウト  
 ・電流センサー　3回路まで(メインの分電盤の赤相・黒相、蓄熱暖房の分電盤の3つに使用)  
