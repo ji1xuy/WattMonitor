@@ -1,4 +1,4 @@
-#define VER "Program version 20230928"
+#define VER "Program version 20230929"
 //**************************************************************************************************
 /*
   電力モニター Watt_Monitor
@@ -4185,7 +4185,7 @@ void loop() {
         //何もしない
         break;
     }
-    countupTimer();           // 1分毎にタイマーを動かす
+    //countupTimer();           // 1分毎にタイマーを動かす
     incrElapsedDays();        // 1日1回累積日数の加算
     saveWattHourTimeperiod(); // 設定した時間間隔(30分)毎にSDカードにデータを保存する
     syncTimeOnceADay();       // 1日1回時刻をRTCとシステム時刻を日本標準時に合わせる
@@ -4200,7 +4200,7 @@ void loop() {
   //実行間隔を大きくするために、レスポンスを要求しない以下の関数を
   //updateScreenInterval.check()==1の時に実行するように場所移動(2023/9/27)
   //原因はmemorysaver.hと判明(2023/9/28)
-  //countupTimer();           // 1分毎にタイマーを動かす
+  countupTimer();           // 1分毎にタイマーを動かす
   //incrElapsedDays();        // 1日1回累積日数の加算
   //saveWattHourTimeperiod(); // 設定した時間間隔(30分)毎にSDカードにデータを保存する
   //syncTimeOnceADay();       // 1日1回時刻をRTCとシステム時刻を日本標準時に合わせる
