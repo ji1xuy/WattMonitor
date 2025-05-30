@@ -7,7 +7,7 @@
 回路図  
 ・C5,C6 0.1μF -> 22pF  
 <2025/5/30>追加 
-・メイン回路_AliExpress_LCD.jpg
+・メイン回路_AliExpress_LCD.jpg 
 <2025/5/31>訂正 
 ・メイン回路.jpgをメイン回路_Aitendo_LCD.jpgに差し替え
 
