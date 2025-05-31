@@ -10,7 +10,8 @@
 ・メイン回路_AliExpress_LCD.jpg  
 <2025/5/31>訂正  
 ・メイン回路.jpgをメイン回路_Aitendo_LCD.jpgに差し替え  
-
+　(RDピン: Open→VCCに接続 に訂正)  
+ 
 ■ハード  
 ・Atmega1284P-PU 3.3V 12MHz bobuinoピンレイアウト  
 ・電流センサー　3回路まで  
