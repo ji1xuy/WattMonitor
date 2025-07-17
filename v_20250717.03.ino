@@ -3358,7 +3358,9 @@ void adjustDateTime(void) {
   printButtonEx(BTN_DATE_TIME_MINUS, STS_NORMAL);
   printButtonEx(BTN_DATE_TIME_PLUS, STS_NORMAL);
   printButtonEx(BTN_DATE_TIME_DOWN, STS_NORMAL);
-  printButtonEx(BTN_DATE_TIME_SYNC, STS_NORMAL);
+  if (existsFlashAir) {
+    printButtonEx(BTN_DATE_TIME_SYNC, STS_NORMAL);
+  }
   printButtonEx(BTN_DATE_TIME_OK, STS_NORMAL);
   printButtonEx(BTN_DATE_TIME_CANCEL, STS_NORMAL);
   mode = TIME_YEAR;
@@ -3484,7 +3486,6 @@ void adjustDateTime(void) {
           delay(3000);
         } else {
           beep(BEEP_LOW);
-          printButtonEx(BTN_DATE_TIME_SYNC, STS_INVERSE);
         }
         break;
       }
