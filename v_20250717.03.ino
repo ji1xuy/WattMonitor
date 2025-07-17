@@ -3486,6 +3486,7 @@ void adjustDateTime(void) {
           delay(3000);
         } else {
           beep(BEEP_LOW);
+          continue;
         }
         break;
       }
