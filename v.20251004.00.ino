@@ -570,7 +570,7 @@ const int POPUPWINDOWCLOSETIMER_END = 2;
 //タイマー
 //Timer0 delay()等で使用
 //Timer1 TimerOneライブラリで使用
-//Temwr2 tone()で使用
+//Timer2 tone()で使用
 
 // mighty-1284p-master\variants\bobuino\pins_arduino.h
 //  TIMER1A D8  (PD5)pin.19 -> LCD CS
